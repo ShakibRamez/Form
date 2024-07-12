@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      body {
+        width: 50%;
+      }
+      .first input {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Job Aplication</h1>
+    <form action="">
+      <fieldset class="first">
+        <legend>Personal Information</legend>
+        <label for="f">First Name:</label><br />
+        <input type="text" name="f" /><br />
+        <label for="l">Last Name:</label><br />
+        <input type="text" name="l" /><br />
+        <label for="e">First Email:</label><br />
+        <input type="email" name="e" /><br />
+        <label for="n">Phone Number:</label><br />
+        <input type="text" name="n" placeholder="enter your number" />
+      </fieldset>
+
+      <fieldset class="first">
+        <legend>Address Information</legend>
+        <label for="s">Street Address:</label><br />
+        <input type="text" name="s" /><br />
+        <label for="c">City:</label><br />
+        <input type="text" name="c" /><br />
+        <label for="st">State:</label><br />
+        <input type="text" name="st" /><br />
+        <label for="p">Postal Code:</label><br />
+        <input type="text" name="p" />
+      </fieldset>
+
+      <fieldset class="first">
+        <legend>Education History</legend>
+        <label for="sch">School Name:</label><br />
+        <input type="text" name="sch" /><br />
+        <label for="d">Degree Obtained:</label><br />
+        <input type="text" name="d" /><br />
+        <label for="gr">Graduation Year:</label><br />
+        <input type="text" name="gr" />
+      </fieldset>
+
+      <fieldset class="first">
+        <legend>Employment History</legend>
+        <label for="com">Company Name:</label><br />
+        <input type="text" name="com" /><br />
+        <label for="po">Position Held:</label><br />
+        <input type="text" name="po" /><br />
+        <label for="sta">Start Date:</label><br />
+        <input type="date" name="sta" /><br />
+        <label for="end">End Date:</label><br />
+        <input type="date" name="end" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Skills</legend>
+        <b>Programing Language:</b><br />
+        <input type="checkbox" /><label for="">HTML</label><br />
+        <input type="checkbox" /><label for="">CSS</label><br />
+        <input type="checkbox" /><label for="">JAVASCRIPT</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Upload Resume</legend>
+        <input type="file" /><br />
+        <label for="">Accepte file types: PDF, DOC, DOCX</label>
+      </fieldset>
+
+      <input
+        type="submit"
+        value="Submit Application"
+        style="
+          background-color: green;
+          width: 20%;
+          height: 30px;
+          border-radius: 5px;
+        "
+      />
+    </form>
+  </body>
+</html>
